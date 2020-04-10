@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutAllRights" xml:space="preserve">
+    <value>All rights reserved.</value>
+  </data>
+  <data name="aboutAuthor" xml:space="preserve">
+    <value>Developer: Zourawsky Vladimir, tel. +7 (916) 288-1275</value>
+  </data>
+  <data name="aboutContens" xml:space="preserve">
+    <value>Contens information abour reception:</value>
+  </data>
+  <data name="aboutContensOrth" xml:space="preserve">
+    <value>- records, containing information about orthopedic reception.</value>
+  </data>
+  <data name="aboutContensPac" xml:space="preserve">
+    <value>- records, containing information about patients,</value>
+  </data>
+  <data name="aboutContensProf" xml:space="preserve">
+    <value>- records, containing information about profilactic reception,</value>
+  </data>
+  <data name="aboutContensSurg" xml:space="preserve">
+    <value>- records, containing information about surgeon reception,</value>
+  </data>
+  <data name="aboutContensTher" xml:space="preserve">
+    <value>- records, containing information about therapy reception,</value>
+  </data>
+  <data name="aboutIntended" xml:space="preserve">
+    <value>Intended for recording stomatologic reception.</value>
+  </data>
+  <data name="aboutRights0" xml:space="preserve">
+    <value>This program reserved international and other rights.</value>
+  </data>
+  <data name="aboutRights1" xml:space="preserve">
+    <value>Don`t copy.</value>
+  </data>
+  <data name="aboutRights2" xml:space="preserve">
+    <value>Don`t disturb.</value>
+  </data>
+  <data name="baseNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="baseOrthoped" xml:space="preserve">
+    <value>Orthopedic</value>
+  </data>
+  <data name="baseProfilactic" xml:space="preserve">
+    <value>Profilactic</value>
+  </data>
+  <data name="baseReestr" xml:space="preserve">
+    <value>Reestr</value>
+  </data>
+  <data name="baseSurgeon" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="baseTherapy" xml:space="preserve">
+    <value>Therapy</value>
+  </data>
+  <data name="baseUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="formAboutTitle" xml:space="preserve">
+    <value>About program StomBase</value>
+  </data>
+  <data name="formLogonTitle" xml:space="preserve">
+    <value>Authorization</value>
+  </data>
+  <data name="formMainTitle" xml:space="preserve">
+    <value>Dental records</value>
+    <comment>Main Program Title</comment>
+  </data>
+  <data name="formPacFindTitle" xml:space="preserve">
+    <value>Search for similar patients in the database</value>
+  </data>
+  <data name="formPacientAddTitle" xml:space="preserve">
+    <value>Add new pacient</value>
+  </data>
+  <data name="formPacientEditTitle" xml:space="preserve">
+    <value>Edit current pacient</value>
+  </data>
+  <data name="logonLabelConfirm" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="logonLabelPass" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="logonLabelUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="logonMessageConfirm" xml:space="preserve">
+    <value>Please confirm password for checking.</value>
+  </data>
+  <data name="logonMessageConfirmError" xml:space="preserve">
+    <value>Password and Confirm password not equal. Please try again.</value>
+  </data>
+  <data name="logonMessageWrongPassword" xml:space="preserve">
+    <value>Password incorrect. Please try again.</value>
+  </data>
+  <data name="mainButtonContentAdd" xml:space="preserve">
+    <value>Add pacient</value>
+  </data>
+  <data name="mainButtonContentEdit" xml:space="preserve">
+    <value>Edit pacient</value>
+  </data>
+  <data name="mainLabelAdress" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="mainLabelAge" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="mainLabelComment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="mainLabelEMail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="mainLabelFrom" xml:space="preserve">
+    <value>From and description</value>
+  </data>
+  <data name="mainLabelNickName" xml:space="preserve">
+    <value>Pseudonym</value>
+  </data>
+  <data name="mainLabelTelefons" xml:space="preserve">
+    <value>Telefons</value>
+  </data>
+  <data name="mainLabelYears" xml:space="preserve">
+    <value>years.</value>
+  </data>
+  <data name="mainMessageErrorAddingPacient" xml:space="preserve">
+    <value>Error when adding patient data to the database</value>
+  </data>
+  <data name="menuExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="menuItemAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="menuItemConfiguration" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="menuItemHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="menuItemHelpView" xml:space="preserve">
+    <value>View help</value>
+  </data>
+  <data name="menuItemReestr" xml:space="preserve">
+    <value>Reestr</value>
+  </data>
+  <data name="menuItemReestrPacient" xml:space="preserve">
+    <value>Reestr of pacients</value>
+  </data>
+  <data name="menuItemSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="menuItemUser" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="menuItemUserAdd" xml:space="preserve">
+    <value>User Add</value>
+  </data>
+  <data name="menuItemUserList" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="menuItemVizit" xml:space="preserve">
+    <value>Vizits</value>
+  </data>
+  <data name="menuItemVizitOrthopedist" xml:space="preserve">
+    <value>Orthopedist</value>
+  </data>
+  <data name="menuItemVizitProfilactic" xml:space="preserve">
+    <value>Profilactic</value>
+  </data>
+  <data name="menuItemVizitSurgeon" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="menuItemVizitTherapist" xml:space="preserve">
+    <value>Therapist</value>
+  </data>
+  <data name="messageCaptionError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="messageCaptionInformation" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="modeAdd" xml:space="preserve">
+    <value>Adding</value>
+  </data>
+  <data name="modeBrowse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="modeEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="modeNone" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="pacFindButtonNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="pacFindButtonYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="pacFindMessageTableEmpty" xml:space="preserve">
+    <value>Based on the entered: Name, Surname and the DB patients was not found.</value>
+  </data>
+  <data name="pacFindText0" xml:space="preserve">
+    <value>You entered:</value>
+  </data>
+  <data name="pacFindText1" xml:space="preserve">
+    <value>Similar records were found in the database.</value>
+  </data>
+  <data name="pacFindText10" xml:space="preserve">
+    <value>No similar entries were found in the database.</value>
+  </data>
+  <data name="pacFindText2" xml:space="preserve">
+    <value>View the list if you already have such a patient,</value>
+  </data>
+  <data name="pacFindText3" xml:space="preserve">
+    <value>then you don't need to add it.</value>
+  </data>
+  <data name="pacFindTextBlockAsk" xml:space="preserve">
+    <value>Add a patient to the database?</value>
+  </data>
+  <data name="pacientButtonAddTel" xml:space="preserve">
+    <value>Add Tel</value>
+  </data>
+  <data name="pacientButtonDelTel" xml:space="preserve">
+    <value>Del Tel</value>
+  </data>
+  <data name="pacientButtonExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="pacientButtonSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="pacientGridHeader0" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="pacientGridHeader1" xml:space="preserve">
+    <value>Fam</value>
+  </data>
+  <data name="pacientGridHeader2" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="pacientGridHeader3" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="pacientGridHeader4" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="pacientGridHeader5" xml:space="preserve">
+    <value>Date Birth</value>
+  </data>
+  <data name="pacientGridHeader6" xml:space="preserve">
+    <value>Changed</value>
+  </data>
+  <data name="pacientGridHeader7" xml:space="preserve">
+    <value>By:</value>
+  </data>
+  <data name="pacientLabelAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="pacientLabelComment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="pacientLabelDR" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="pacientLabelEMail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="pacientLabelFam" xml:space="preserve">
+    <value>Family name</value>
+  </data>
+  <data name="pacientLabelFromComment" xml:space="preserve">
+    <value>From Comment</value>
+  </data>
+  <data name="pacientLabelIm" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="pacientLabelNickName" xml:space="preserve">
+    <value>NickName</value>
+  </data>
+  <data name="pacientLabelNumber" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="pacientLabelOtc" xml:space="preserve">
+    <value>Second name</value>
+  </data>
+  <data name="pacientLabelPrivateUserInfo" xml:space="preserve">
+    <value>PrivateUserInfo</value>
+  </data>
+  <data name="pacientLabelSex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="pacientLabelTelefons" xml:space="preserve">
+    <value>Telefons</value>
+  </data>
+  <data name="pacientLabelTelFormat" xml:space="preserve">
+    <value>+7 (000) 000-00-00</value>
+  </data>
+  <data name="pacientMessageNotDigit" xml:space="preserve">
+    <value>It isn`t digit character.</value>
+  </data>
+  <data name="pacientMessageRequiredEmpty" xml:space="preserve">
+    <value>Required fields empty.</value>
+  </data>
+  <data name="pacientMessageWrongTelNumber" xml:space="preserve">
+    <value>Telefon number incorrect, try again.</value>
+  </data>
+  <data name="pacientTextBlockRequired" xml:space="preserve">
+    <value>Mandatory fields.</value>
+  </data>
+  <data name="programName" xml:space="preserve">
+    <value>Card of Dental patient</value>
+  </data>
+  <data name="statusBarItemBaseLabel" xml:space="preserve">
+    <value>Base:</value>
+  </data>
+  <data name="statusBarItemModeLabel" xml:space="preserve">
+    <value>Mode:</value>
+  </data>
+  <data name="statusBarItemUserLabel" xml:space="preserve">
+    <value>User:</value>
+  </data>
+</root>

@@ -1,0 +1,141 @@
+﻿<Window x:Name="mainWindow" x:Class="StomKarta.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StomKarta"
+        xmlns:res="clr-namespace:StomKarta.Properties"
+        mc:Ignorable="d"
+        Title="{x:Static res:Resources.formMainTitle}" WindowState="Normal" FontSize="14" MinHeight="515" Height="635"
+        Width="995" MinWidth="995" WindowStartupLocation="CenterScreen" SizeChanged="mainWindow_SizeChanged">
+    <DockPanel>
+        <Menu x:Name="mainMenu" DockPanel.Dock="Top" HorizontalAlignment="Left" VerticalAlignment="Top" Width="2000">
+            <MenuItem HorizontalAlignment="Left" Header="{x:Static res:Resources.menuItemReestr}" Width="100" FontSize="14">
+                <MenuItem x:Name="menuItemReestrPacient" Header="{x:Static res:Resources.menuItemReestrPacient}" HorizontalAlignment="Left" Width="200" Click="menuItemReestrPacient_Click"/>
+                <Separator/>
+                <MenuItem x:Name="menuItemVizit" Header="{x:Static res:Resources.menuItemVizit}" HorizontalAlignment="Left" Width="200">
+                    <MenuItem x:Name="menuItemVizitProfilactic" Header="{x:Static res:Resources.menuItemVizitProfilactic}" HorizontalAlignment="Left" Width="210" Click="menuItemVizitProfilactic_Click"/>
+                    <MenuItem x:Name="menuItemVizitTherapist" Header="{x:Static res:Resources.menuItemVizitTherapist}" HorizontalAlignment="Left" Width="210" Click="menuItemVizitTherapist_Click"/>
+                    <MenuItem x:Name="menuItemVizitSurgeon" Header="{x:Static res:Resources.menuItemVizitSurgeon}" HorizontalAlignment="Left" Width="210" Click="menuItemVizitSurgeon_Click"/>
+                    <MenuItem x:Name="menuItemVizitOrthopedist" Header="{x:Static res:Resources.menuItemVizitOrthopedist}" HorizontalAlignment="Left" Width="210" Click="menuItemVizitOrthopedist_Click"/>
+                </MenuItem>
+                <Separator/>
+                <MenuItem x:Name="menuExit" Header="{x:Static res:Resources.menuExit}" HorizontalAlignment="Left" Width="200" Click="menuExit_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="menuItemUser" Header="{x:Static res:Resources.menuItemUser}" Width="170" FontSize="14">
+                <MenuItem x:Name="menuItemUserList" Header="{x:Static res:Resources.menuItemUserList}" Width="170" Click="menuItemUserList_Click"/>
+                <MenuItem x:Name="menuItemUserAdd" Header="{x:Static res:Resources.menuItemUserAdd}" Width="170" Click="menuItemUserAdd_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="menuItemConfiguration" Header="{x:Static res:Resources.menuItemConfiguration}" Width="160" FontSize="14">
+                <MenuItem x:Name="menuItemSettings" Header="{x:Static res:Resources.menuItemSettings}" Width="160"  Click="menuItemSettings_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="menuItemHelp" Header="{x:Static res:Resources.menuItemHelp}" Width="210" FontSize="14px">
+                <MenuItem x:Name="menuItemHelpView" Header="{x:Static res:Resources.menuItemHelpView}" Width="210" FontSize="14px" Click="menuItemHelpView_Click"/>
+                <Separator/>
+                <MenuItem x:Name="menuItemAbout" Header="{x:Static res:Resources.menuItemAbout}" Width="210" FontSize="14px" Click="menuItemAbout_Click"/>
+            </MenuItem>
+            <MenuItem/>
+        </Menu>
+
+        <StatusBar x:Name="mainStatusBar" DockPanel.Dock="Bottom" Width="2000">
+            <StatusBarItem>
+                <TextBlock x:Name="statusBarItemUserLabel" Text="{x:Static res:Resources.statusBarItemUserLabel}" Width="100"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock x:Name="statusBarItemUser" Text="Noname" Width="100"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock x:Name="statusBarItemBaseLabel" Text="{x:Static res:Resources.statusBarItemBaseLabel}" Width="50"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock x:Name="statusBarItemBase" Text="{x:Static res:Resources.baseNone}" Width="150"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock x:Name="statusBarItemModeLabel" Text="{x:Static res:Resources.statusBarItemModeLabel}" Width="50"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock x:Name="statusBarItemMode" Text="{x:Static res:Resources.modeNone}" Width="100"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem/>
+        </StatusBar>
+
+        <Border x:Name="borderCommandButtons" DockPanel.Dock="Bottom" BorderBrush="LightGray" BorderThickness="1" 
+                VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,5">
+            <WrapPanel x:Name="panelCommandButtons" VerticalAlignment="Top" HorizontalAlignment="Left" IsEnabled="True">
+                <Button x:Name="buttonAdd" Content="{x:Static res:Resources.mainButtonContentAdd}" 
+                        VerticalAlignment="Top" Margin="5" Padding="20,5,20,5" Click="buttonAdd_Click"/>
+                <Button x:Name="buttonEdit" Content="{x:Static res:Resources.mainButtonContentEdit}"
+                        VerticalAlignment="Top" Margin="5" Padding="20,5,20,5" Click="buttonEdit_Click"/>
+            </WrapPanel>
+        </Border>
+
+        <StackPanel x:Name="panelOtherFields" DockPanel.Dock="Right" VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal" Margin="10,5,5,0">
+                <TextBlock x:Name="labelNickName" Text="{x:Static res:Resources.mainLabelNickName}" 
+                           HorizontalAlignment="Left" FontWeight="Bold"/>
+                <TextBlock x:Name="textBlockNickName" Text="XXXXXXXX" HorizontalAlignment="Left" Margin="5,0,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10,5,5,0">
+                <TextBlock x:Name="labelAge" Text="{x:Static res:Resources.mainLabelAge}" 
+                           HorizontalAlignment="Left" FontWeight="Bold"/>
+                <TextBlock x:Name="textBlockAge" Text="XX" HorizontalAlignment="Left" Margin="5,0,5,0"/>
+                <TextBlock x:Name="labelYears" Text="{x:Static res:Resources.mainLabelYears}" HorizontalAlignment="Left"/>
+            </StackPanel>
+            <Label x:Name="labelTelefons" Content="{x:Static res:Resources.mainLabelTelefons}"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,5,0" FontWeight="Bold"/>
+            <ListBox x:Name="listBoxTel" Margin="5,0,5,0"/>
+            <Label x:Name="labelEMail" Content="{x:Static res:Resources.mainLabelEMail}"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,5,0" FontWeight="Bold"/>
+            <TextBox x:Name="textBoxEMail" HorizontalAlignment="Left" Width="227" Margin="5,0,0,0" IsReadOnly="True"/>
+            <Label x:Name="labelAdress" Content="{x:Static res:Resources.mainLabelAdress}"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,5,0" FontWeight="Bold"/>
+            <Border x:Name="borderAdress" BorderBrush="LightGray" BorderThickness="1"
+                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,5,0">
+                <TextBlock x:Name="textBlockAdress" HorizontalAlignment="Left" TextWrapping="Wrap"
+                           Margin="1" MinHeight="19" Width="224"/>
+            </Border>
+            <Label x:Name="labelFromId" Content="{x:Static res:Resources.mainLabelFrom}"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,5,5,0" FontWeight="Bold"/>
+            <Border x:Name="borderFromId" BorderBrush="LightGray" BorderThickness="1"
+                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,5,5">
+                <TextBlock x:Name="textBlockFromId" HorizontalAlignment="Left" TextWrapping="Wrap"
+                           Margin="1" MinHeight="19" Width="224"/>
+            </Border>
+            <Label x:Name="labelComment" Content="{x:Static res:Resources.mainLabelComment}"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,5,0" FontWeight="Bold"/>
+            <Border x:Name="borderComment" BorderBrush="LightGray" BorderThickness="1"
+                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,5,5">
+                <TextBlock x:Name="textBlockComment" HorizontalAlignment="Left" TextWrapping="Wrap"
+                           Margin="1" MinHeight="19" Width="224"/>
+            </Border>
+        </StackPanel>
+
+        <DataGrid x:Name="dataGridPacients" ItemsSource="{Binding}" AutoGenerateColumns="False" 
+                  VerticalScrollBarVisibility="Visible" RowHeaderWidth="10" MinHeight="50.04"
+                  VerticalAlignment="Top" HorizontalAlignment="Left" SelectionUnit="FullRow" IsReadOnly="True"
+                  SelectedIndex="0" SelectionMode="Single" SelectionChanged="dataGridPacients_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="{x:Static res:Resources.pacientGridHeader0}"
+                                    Binding="{Binding Id}" MinWidth="35"/>
+                <DataGridTextColumn Header="{x:Static res:Resources.pacientGridHeader1}"
+                                    Binding="{Binding Fam}" MinWidth="90"/>
+                <DataGridTextColumn Header="{x:Static res:Resources.pacientGridHeader2}"
+                                    Binding="{Binding Im}" MinWidth="80"/>
+                <DataGridTextColumn Header="{x:Static res:Resources.pacientGridHeader3}"
+                                    Binding="{Binding Otc}" MinWidth="110"/>
+                <DataGridTextColumn Header="{x:Static res:Resources.pacientGridHeader4}"
+                                    Binding="{Binding LName}" MinWidth="64"/>
+                <DataGridTextColumn Header="{x:Static res:Resources.pacientGridHeader5}"
+                                    Binding="{Binding DR, StringFormat='dd.MM.yyyy'}" MinWidth="82"/>
+                <DataGridTextColumn Header="{x:Static res:Resources.pacientGridHeader6}"
+                                    Binding="{Binding RowUpdate, StringFormat='dd.MM.yyyy HH:mm:ss'}" MinWidth="129"/>
+                <DataGridTextColumn Header="{x:Static res:Resources.pacientGridHeader7}"
+                                    Binding="{Binding UserName}" MinWidth="106"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </DockPanel>
+</Window>

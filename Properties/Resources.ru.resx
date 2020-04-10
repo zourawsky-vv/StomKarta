@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutAllRights" xml:space="preserve">
+    <value>Все права защищены.</value>
+  </data>
+  <data name="aboutAuthor" xml:space="preserve">
+    <value>Разработчик: Журавский Владимир, тел. +7 (916) 288-1275</value>
+  </data>
+  <data name="aboutContens" xml:space="preserve">
+    <value>Состоит:</value>
+  </data>
+  <data name="aboutContensOrth" xml:space="preserve">
+    <value>- данные, содержащие информацию об ортопедических приёмах.</value>
+  </data>
+  <data name="aboutContensPac" xml:space="preserve">
+    <value>- данные, содержащие информацию о пациентах,</value>
+  </data>
+  <data name="aboutContensProf" xml:space="preserve">
+    <value>- данные, содержащие информацию о профилактических приёмах,</value>
+  </data>
+  <data name="aboutContensSurg" xml:space="preserve">
+    <value>- данные, содержащие информацию о хирургических приёмах,</value>
+  </data>
+  <data name="aboutContensTher" xml:space="preserve">
+    <value>- данные, содержащие информацию о терапевтических приёмах,</value>
+  </data>
+  <data name="aboutIntended" xml:space="preserve">
+    <value>Предназначена для хранения информации о приёмах пациентов.</value>
+  </data>
+  <data name="aboutRights0" xml:space="preserve">
+    <value>Данная программа защищена законами об авторских правах и междунарожными соглашениями.</value>
+  </data>
+  <data name="aboutRights1" xml:space="preserve">
+    <value>Незаконное воспроизведение или распространение данной программы</value>
+  </data>
+  <data name="aboutRights2" xml:space="preserve">
+    <value>или любой её части влечёт за собой гражданскую и уголовную ответственность.</value>
+  </data>
+  <data name="baseNone" xml:space="preserve">
+    <value>Не используется</value>
+  </data>
+  <data name="baseOrthoped" xml:space="preserve">
+    <value>Ортопедические приёмы</value>
+  </data>
+  <data name="baseProfilactic" xml:space="preserve">
+    <value>Профилактические приёмы</value>
+  </data>
+  <data name="baseReestr" xml:space="preserve">
+    <value>Реестр пациентов</value>
+  </data>
+  <data name="baseSurgeon" xml:space="preserve">
+    <value>Хирургические приёмы</value>
+  </data>
+  <data name="baseTherapy" xml:space="preserve">
+    <value>Терапевтические приёмы</value>
+  </data>
+  <data name="baseUser" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="formAboutTitle" xml:space="preserve">
+    <value>О программе Карта стоматологического пациента</value>
+  </data>
+  <data name="formLogonTitle" xml:space="preserve">
+    <value>Авторизация</value>
+  </data>
+  <data name="formMainTitle" xml:space="preserve">
+    <value>Карта пациента</value>
+  </data>
+  <data name="formPacFindTitle" xml:space="preserve">
+    <value>Поиск похожих пациентов в базе</value>
+  </data>
+  <data name="formPacientAddTitle" xml:space="preserve">
+    <value>Добавление нового пациента</value>
+  </data>
+  <data name="formPacientEditTitle" xml:space="preserve">
+    <value>Изменение выделенного пациента</value>
+  </data>
+  <data name="logonLabelConfirm" xml:space="preserve">
+    <value>Повторите ввод пароля</value>
+  </data>
+  <data name="logonLabelPass" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="logonLabelUser" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="logonMessageConfirm" xml:space="preserve">
+    <value>Пожалуйста повторите пароль, для проверки ввода.</value>
+  </data>
+  <data name="logonMessageConfirmError" xml:space="preserve">
+    <value>Пароль и повторный ввод пвроля не совпадают. Повторите ввод.</value>
+  </data>
+  <data name="logonMessageWrongPassword" xml:space="preserve">
+    <value>Пароль неверен. Повторите ввод.</value>
+  </data>
+  <data name="mainButtonContentAdd" xml:space="preserve">
+    <value>Добавить пациента</value>
+  </data>
+  <data name="mainButtonContentEdit" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="mainLabelAdress" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="mainLabelAge" xml:space="preserve">
+    <value>Возраст</value>
+  </data>
+  <data name="mainLabelComment" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="mainLabelEMail" xml:space="preserve">
+    <value>Электронная почта</value>
+  </data>
+  <data name="mainLabelFrom" xml:space="preserve">
+    <value>От кого и пояснение</value>
+  </data>
+  <data name="mainLabelNickName" xml:space="preserve">
+    <value>Псевдоним</value>
+  </data>
+  <data name="mainLabelTelefons" xml:space="preserve">
+    <value>Телефоны</value>
+  </data>
+  <data name="mainLabelYears" xml:space="preserve">
+    <value>лет.</value>
+  </data>
+  <data name="mainMessageErrorAddingPacient" xml:space="preserve">
+    <value>Ошибка при добавлении данных пациента в базу.</value>
+  </data>
+  <data name="menuExit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="menuItemAbout" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="menuItemConfiguration" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="menuItemHelp" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="menuItemHelpView" xml:space="preserve">
+    <value>Просмотр справки</value>
+  </data>
+  <data name="menuItemReestr" xml:space="preserve">
+    <value>Реестр</value>
+  </data>
+  <data name="menuItemReestrPacient" xml:space="preserve">
+    <value>Реестр пациентов</value>
+  </data>
+  <data name="menuItemSettings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="menuItemUser" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="menuItemUserAdd" xml:space="preserve">
+    <value>Добавление</value>
+  </data>
+  <data name="menuItemUserList" xml:space="preserve">
+    <value>Список</value>
+  </data>
+  <data name="menuItemVizit" xml:space="preserve">
+    <value>Приёмы</value>
+  </data>
+  <data name="menuItemVizitOrthopedist" xml:space="preserve">
+    <value>Ортопедические</value>
+  </data>
+  <data name="menuItemVizitProfilactic" xml:space="preserve">
+    <value>Профилактические</value>
+  </data>
+  <data name="menuItemVizitSurgeon" xml:space="preserve">
+    <value>Хирургические</value>
+  </data>
+  <data name="menuItemVizitTherapist" xml:space="preserve">
+    <value>Терапевтические</value>
+  </data>
+  <data name="messageCaptionError" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="messageCaptionInformation" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="modeAdd" xml:space="preserve">
+    <value>Добавление</value>
+  </data>
+  <data name="modeBrowse" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+  <data name="modeEdit" xml:space="preserve">
+    <value>Редактирование</value>
+  </data>
+  <data name="modeNone" xml:space="preserve">
+    <value>Закрыта</value>
+  </data>
+  <data name="pacFindButtonNo" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="pacFindButtonYes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="pacFindMessageTableEmpty" xml:space="preserve">
+    <value>По введенным: Фамилии, Имени и ДР пациентов не найдено.</value>
+  </data>
+  <data name="pacFindText0" xml:space="preserve">
+    <value>Вы ввели:</value>
+  </data>
+  <data name="pacFindText1" xml:space="preserve">
+    <value>В базе данных похожие записи были обнаружены.</value>
+  </data>
+  <data name="pacFindText10" xml:space="preserve">
+    <value>В базе данных похожие записи были не обнаружены.</value>
+  </data>
+  <data name="pacFindText2" xml:space="preserve">
+    <value>Просмотрите список, если такой пациент уже есть,</value>
+  </data>
+  <data name="pacFindText3" xml:space="preserve">
+    <value>то добавлять его не нужно.</value>
+  </data>
+  <data name="pacFindTextBlockAsk" xml:space="preserve">
+    <value>Добавлять пациента в базу?</value>
+  </data>
+  <data name="pacientButtonAddTel" xml:space="preserve">
+    <value>Добавить телефон</value>
+  </data>
+  <data name="pacientButtonDelTel" xml:space="preserve">
+    <value>Удалить телефон</value>
+  </data>
+  <data name="pacientButtonExit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="pacientButtonSave" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="pacientGridHeader0" xml:space="preserve">
+    <value>№</value>
+  </data>
+  <data name="pacientGridHeader1" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="pacientGridHeader2" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="pacientGridHeader3" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="pacientGridHeader4" xml:space="preserve">
+    <value>Пол</value>
+  </data>
+  <data name="pacientGridHeader5" xml:space="preserve">
+    <value>Дата рожд.</value>
+  </data>
+  <data name="pacientGridHeader6" xml:space="preserve">
+    <value>Изменено</value>
+  </data>
+  <data name="pacientGridHeader7" xml:space="preserve">
+    <value>Кем изменено:</value>
+  </data>
+  <data name="pacientLabelAddress" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="pacientLabelComment" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="pacientLabelDR" xml:space="preserve">
+    <value>Дата рождения</value>
+  </data>
+  <data name="pacientLabelEMail" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="pacientLabelFam" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="pacientLabelFromComment" xml:space="preserve">
+    <value>От кого</value>
+  </data>
+  <data name="pacientLabelIm" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="pacientLabelNickName" xml:space="preserve">
+    <value>Псевдоним</value>
+  </data>
+  <data name="pacientLabelNumber" xml:space="preserve">
+    <value>Номер</value>
+  </data>
+  <data name="pacientLabelOtc" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="pacientLabelPrivateUserInfo" xml:space="preserve">
+    <value>Частная информация специалиста</value>
+  </data>
+  <data name="pacientLabelSex" xml:space="preserve">
+    <value>Пол</value>
+  </data>
+  <data name="pacientLabelTelefons" xml:space="preserve">
+    <value>Введение телефонных номеров</value>
+  </data>
+  <data name="pacientLabelTelFormat" xml:space="preserve">
+    <value>+7 (000) 000-00-00</value>
+  </data>
+  <data name="pacientMessageNotDigit" xml:space="preserve">
+    <value>Введенный в номере символ не числовой.</value>
+  </data>
+  <data name="pacientMessageRequiredEmpty" xml:space="preserve">
+    <value>Не заполнено обязательное поле.</value>
+  </data>
+  <data name="pacientMessageWrongTelNumber" xml:space="preserve">
+    <value>Введенный номер не соответствует формату ввода, повторите ввод.</value>
+  </data>
+  <data name="pacientTextBlockRequired" xml:space="preserve">
+    <value>Поля для обязательного заполнения.</value>
+  </data>
+  <data name="programName" xml:space="preserve">
+    <value>Карта стоматологического пациента</value>
+  </data>
+  <data name="statusBarItemBaseLabel" xml:space="preserve">
+    <value>База:</value>
+  </data>
+  <data name="statusBarItemModeLabel" xml:space="preserve">
+    <value>Режим:</value>
+  </data>
+  <data name="statusBarItemUserLabel" xml:space="preserve">
+    <value>Пользователь:</value>
+  </data>
+</root>
