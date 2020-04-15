@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="aboutAllRights" xml:space="preserve">
-    <value>Все права защищены.</value>
+    <value>Авторские права. 2018-2020 Все права защищены.</value>
   </data>
   <data name="aboutAuthor" xml:space="preserve">
     <value>Разработчик: Журавский Владимир, тел. +7 (916) 288-1275</value>
@@ -148,10 +148,13 @@
     <value>Данная программа защищена законами об авторских правах и междунарожными соглашениями.</value>
   </data>
   <data name="aboutRights1" xml:space="preserve">
-    <value>Незаконное воспроизведение или распространение данной программы</value>
+    <value>Незаконное воспроизведение или распространение данной программы или любой её части</value>
   </data>
   <data name="aboutRights2" xml:space="preserve">
-    <value>или любой её части влечёт за собой гражданскую и уголовную ответственность.</value>
+    <value>влечёт за собой гражданскую и уголовную ответственность.</value>
+  </data>
+  <data name="aboutVersion" xml:space="preserve">
+    <value>Версия:</value>
   </data>
   <data name="baseNone" xml:space="preserve">
     <value>Не используется</value>
@@ -437,5 +440,8 @@
   </data>
   <data name="statusBarItemUserLabel" xml:space="preserve">
     <value>Пользователь:</value>
+  </data>
+  <data name="statusBarItemUserStatus" xml:space="preserve">
+    <value>Не авторизован</value>
   </data>
 </root>

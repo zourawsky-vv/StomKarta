@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="aboutAllRights" xml:space="preserve">
-    <value>All rights reserved.</value>
+    <value>Private rights. 2018-2020 All rights reserved.</value>
   </data>
   <data name="aboutAuthor" xml:space="preserve">
     <value>Developer: Zourawsky Vladimir, tel. +7 (916) 288-1275</value>
@@ -152,6 +152,9 @@
   </data>
   <data name="aboutRights2" xml:space="preserve">
     <value>Don`t disturb.</value>
+  </data>
+  <data name="aboutVersion" xml:space="preserve">
+    <value>Version</value>
   </data>
   <data name="baseNone" xml:space="preserve">
     <value>None</value>
@@ -438,5 +441,8 @@
   </data>
   <data name="statusBarItemUserLabel" xml:space="preserve">
     <value>User:</value>
+  </data>
+  <data name="statusBarItemUserStatus" xml:space="preserve">
+    <value>None</value>
   </data>
 </root>

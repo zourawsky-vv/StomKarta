@@ -61,7 +61,7 @@ namespace StomKarta.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на All rights reserved..
+        ///   Ищет локализованную строку, похожую на Private rights. 2018-2020 All rights reserved..
         /// </summary>
         public static string aboutAllRights {
             get {
@@ -165,6 +165,15 @@ namespace StomKarta.Properties {
         public static string aboutRights2 {
             get {
                 return ResourceManager.GetString("aboutRights2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Version.
+        /// </summary>
+        public static string aboutVersion {
+            get {
+                return ResourceManager.GetString("aboutVersion", resourceCulture);
             }
         }
         
@@ -1020,6 +1029,15 @@ namespace StomKarta.Properties {
         public static string statusBarItemUserLabel {
             get {
                 return ResourceManager.GetString("statusBarItemUserLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на None.
+        /// </summary>
+        public static string statusBarItemUserStatus {
+            get {
+                return ResourceManager.GetString("statusBarItemUserStatus", resourceCulture);
             }
         }
     }

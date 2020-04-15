@@ -42,7 +42,7 @@
                 <TextBlock x:Name="statusBarItemUserLabel" Text="{x:Static res:Resources.statusBarItemUserLabel}" Width="100"/>
             </StatusBarItem>
             <StatusBarItem>
-                <TextBlock x:Name="statusBarItemUser" Text="Noname" Width="100"/>
+                <TextBlock x:Name="statusBarItemUser" Text="{x:Static res:Resources.statusBarItemUserStatus}" Width="100"/>
             </StatusBarItem>
             <Separator/>
             <StatusBarItem>
