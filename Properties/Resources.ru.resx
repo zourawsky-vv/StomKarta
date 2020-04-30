@@ -177,8 +177,266 @@
   <data name="baseUser" xml:space="preserve">
     <value>Пользователи</value>
   </data>
+  <data name="firstExamButtonDentalRec" xml:space="preserve">
+    <value>Зубная формула</value>
+  </data>
+  <data name="firstExamCombo010" xml:space="preserve">
+    <value>удовлетворительное.</value>
+  </data>
+  <data name="firstExamCombo011" xml:space="preserve">
+    <value>не удовлетворительное.</value>
+  </data>
+  <data name="firstExamCombo020" xml:space="preserve">
+    <value>ясное,</value>
+  </data>
+  <data name="firstExamCombo021" xml:space="preserve">
+    <value>не ясное,</value>
+  </data>
+  <data name="firstExamCombo030" xml:space="preserve">
+    <value>активное.</value>
+  </data>
+  <data name="firstExamCombo031" xml:space="preserve">
+    <value>не активное.</value>
+  </data>
+  <data name="firstExamCombo040" xml:space="preserve">
+    <value>спокойное.</value>
+  </data>
+  <data name="firstExamCombo041" xml:space="preserve">
+    <value>не спокойное.</value>
+  </data>
+  <data name="firstExamCombo050" xml:space="preserve">
+    <value>не изменена.</value>
+  </data>
+  <data name="firstExamCombo051" xml:space="preserve">
+    <value>изменена.</value>
+  </data>
+  <data name="firstExamCombo060" xml:space="preserve">
+    <value>не определяются</value>
+  </data>
+  <data name="firstExamCombo061" xml:space="preserve">
+    <value>определяются</value>
+  </data>
+  <data name="firstExamCombo070" xml:space="preserve">
+    <value>плотная</value>
+  </data>
+  <data name="firstExamCombo071" xml:space="preserve">
+    <value>не плотная</value>
+  </data>
+  <data name="firstExamCombo080" xml:space="preserve">
+    <value>не спаяны</value>
+  </data>
+  <data name="firstExamCombo081" xml:space="preserve">
+    <value>спаяны</value>
+  </data>
+  <data name="firstExamCombo090" xml:space="preserve">
+    <value>без болезненны</value>
+  </data>
+  <data name="firstExamCombo091" xml:space="preserve">
+    <value>болезненны</value>
+  </data>
+  <data name="firstExamCombo100" xml:space="preserve">
+    <value>свободно.</value>
+  </data>
+  <data name="firstExamCombo101" xml:space="preserve">
+    <value>затрудненно.</value>
+  </data>
+  <data name="firstExamCombo110" xml:space="preserve">
+    <value>без особенностей</value>
+  </data>
+  <data name="firstExamCombo111" xml:space="preserve">
+    <value>с особенностями</value>
+  </data>
+  <data name="firstExamCombo120" xml:space="preserve">
+    <value>слева</value>
+  </data>
+  <data name="firstExamCombo121" xml:space="preserve">
+    <value>справа</value>
+  </data>
+  <data name="firstExamCombo122" xml:space="preserve">
+    <value>оба</value>
+  </data>
+  <data name="firstExamCombo130" xml:space="preserve">
+    <value>прямой</value>
+  </data>
+  <data name="firstExamCombo131" xml:space="preserve">
+    <value>ортогнатический</value>
+  </data>
+  <data name="firstExamCombo132" xml:space="preserve">
+    <value>бипрогнатический</value>
+  </data>
+  <data name="firstExamCombo133" xml:space="preserve">
+    <value>прогенический</value>
+  </data>
+  <data name="firstExamCombo134" xml:space="preserve">
+    <value>дистальный</value>
+  </data>
+  <data name="firstExamCombo135" xml:space="preserve">
+    <value>мезиальный</value>
+  </data>
+  <data name="firstExamCombo136" xml:space="preserve">
+    <value>открытый</value>
+  </data>
+  <data name="firstExamCombo137" xml:space="preserve">
+    <value>глубокий</value>
+  </data>
+  <data name="firstExamCombo138" xml:space="preserve">
+    <value>перекрестный</value>
+  </data>
+  <data name="firstExamCombo140" xml:space="preserve">
+    <value>достаточно</value>
+  </data>
+  <data name="firstExamCombo141" xml:space="preserve">
+    <value>не достаточно</value>
+  </data>
+  <data name="firstExamCombo150" xml:space="preserve">
+    <value>десневого</value>
+  </data>
+  <data name="firstExamCombo151" xml:space="preserve">
+    <value>маргинального</value>
+  </data>
+  <data name="firstExamCombo152" xml:space="preserve">
+    <value>альвиолярного</value>
+  </data>
+  <data name="firstExamCombo160" xml:space="preserve">
+    <value>гиперемирована,</value>
+  </data>
+  <data name="firstExamCombo161" xml:space="preserve">
+    <value>не гиперемирована,</value>
+  </data>
+  <data name="firstExamCombo170" xml:space="preserve">
+    <value>отечна,</value>
+  </data>
+  <data name="firstExamCombo171" xml:space="preserve">
+    <value>не отечна,</value>
+  </data>
+  <data name="firstExamCombo180" xml:space="preserve">
+    <value>кровоточит</value>
+  </data>
+  <data name="firstExamCombo181" xml:space="preserve">
+    <value>не кровоточит</value>
+  </data>
+  <data name="firstExamCombo200" xml:space="preserve">
+    <value>не имеются</value>
+  </data>
+  <data name="firstExamCombo201" xml:space="preserve">
+    <value>имеются</value>
+  </data>
+  <data name="firstExamCombo220" xml:space="preserve">
+    <value>снижение</value>
+  </data>
+  <data name="firstExamCombo221" xml:space="preserve">
+    <value>завышение</value>
+  </data>
+  <data name="firstExamText01" xml:space="preserve">
+    <value>Общее состояние</value>
+  </data>
+  <data name="firstExamText02" xml:space="preserve">
+    <value>Сознание</value>
+  </data>
+  <data name="firstExamText03" xml:space="preserve">
+    <value>положение</value>
+  </data>
+  <data name="firstExamText04" xml:space="preserve">
+    <value>Выражение лица</value>
+  </data>
+  <data name="firstExamText05" xml:space="preserve">
+    <value>Со слов больного аллергические реакции на лекарственные препараты -</value>
+  </data>
+  <data name="firstExamText06" xml:space="preserve">
+    <value>Со слов больного соматические заболевания -</value>
+  </data>
+  <data name="firstExamText07" xml:space="preserve">
+    <value>Конфигурация лица</value>
+  </data>
+  <data name="firstExamText08" xml:space="preserve">
+    <value>Кожа нормальной окраски, шелушения, сухости, припухлости нет, (за исключением области:</value>
+  </data>
+  <data name="firstExamText09" xml:space="preserve">
+    <value>Регионарные лимфатические узлы при пальпации</value>
+  </data>
+  <data name="firstExamText10" xml:space="preserve">
+    <value>(размером</value>
+  </data>
+  <data name="firstExamText11" xml:space="preserve">
+    <value>см, консистенция</value>
+  </data>
+  <data name="firstExamText12" xml:space="preserve">
+    <value>с подлежащими тканями,</value>
+  </data>
+  <data name="firstExamText13" xml:space="preserve">
+    <value>Красная кайма губ без патологических изменений, достаточно увлажнена, сухости, эрозий, трещин, корок нет, (за исключением области:</value>
+  </data>
+  <data name="firstExamText14" xml:space="preserve">
+    <value>Рот открывается</value>
+  </data>
+  <data name="firstExamText15" xml:space="preserve">
+    <value>ВНЧС -</value>
+  </data>
+  <data name="firstExamText16" xml:space="preserve">
+    <value>(девиации, крепитации, щелчков нет)</value>
+  </data>
+  <data name="firstExamText17" xml:space="preserve">
+    <value>Прикус:</value>
+  </data>
+  <data name="firstExamText18" xml:space="preserve">
+    <value>Слизистая оболочка полости рта бледно-розового цвета,</value>
+  </data>
+  <data name="firstExamText19" xml:space="preserve">
+    <value>увлажнена.</value>
+  </data>
+  <data name="firstExamText20" xml:space="preserve">
+    <value>Отёчности, нарушения целостности не выявлено, (за исключением</value>
+  </data>
+  <data name="firstExamText21" xml:space="preserve">
+    <value>края десны в области зубов</value>
+  </data>
+  <data name="firstExamText22" xml:space="preserve">
+    <value>где имеются мягкие и твёрдые зубные отложения, десна</value>
+  </data>
+  <data name="firstExamText23" xml:space="preserve">
+    <value>при зондировании).</value>
+  </data>
+  <data name="firstExamText24" xml:space="preserve">
+    <value>Гигиенический индекс по Федорову-Володкиной</value>
+  </data>
+  <data name="firstExamText25" xml:space="preserve">
+    <value>Диагноз:</value>
+  </data>
+  <data name="firstExamText26" xml:space="preserve">
+    <value>План лечения</value>
+  </data>
+  <data name="firstExamText27" xml:space="preserve">
+    <value>1. Обучение индивидуальной гигиене полости рта.</value>
+  </data>
+  <data name="firstExamText28" xml:space="preserve">
+    <value>2. Проведение профессиональной гигиены полости рта, местная и общая противовоспалительная терапия.</value>
+  </data>
+  <data name="firstExamText29" xml:space="preserve">
+    <value>3. Проведение рентгенологического исследовани зуба(ов)</value>
+  </data>
+  <data name="firstExamText30" xml:space="preserve">
+    <value>4. Лечение зуба(ов)</value>
+  </data>
+  <data name="firstExamText31" xml:space="preserve">
+    <value>5. Консультация хирурга-стоматолога, ортопеда-стоматолога для решения вопросов лечения или удаления зуб(ов)</value>
+  </data>
+  <data name="firstExamText32" xml:space="preserve">
+    <value>6. Удаление зуба(ов)</value>
+  </data>
+  <data name="firstExamText33" xml:space="preserve">
+    <value>7. Рациональное протезирование.</value>
+  </data>
+  <data name="firstExamText34" xml:space="preserve">
+    <value>8. Динамическое наблюдение.</value>
+  </data>
+  <data name="firstExamText35" xml:space="preserve">
+    <value>Изменение высоты</value>
+  </data>
   <data name="formAboutTitle" xml:space="preserve">
     <value>О программе Карта стоматологического пациента</value>
+  </data>
+  <data name="formFirstExamTitle" xml:space="preserve">
+    <value>Первичный осмотр</value>
   </data>
   <data name="formLogonTitle" xml:space="preserve">
     <value>Авторизация</value>
@@ -212,6 +470,9 @@
   </data>
   <data name="logonMessageWrongPassword" xml:space="preserve">
     <value>Пароль неверен. Повторите ввод.</value>
+  </data>
+  <data name="mainButtonAppointment" xml:space="preserve">
+    <value>Приёмы</value>
   </data>
   <data name="mainButtonContentAdd" xml:space="preserve">
     <value>Добавить пациента</value>

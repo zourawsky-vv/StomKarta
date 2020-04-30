@@ -354,7 +354,7 @@ namespace StomKarta
 
             if ((bool)pacientForm.ShowDialog())
             {
-                WindowPacientFind pacientFind = new WindowPacientFind(pacient);
+                PacientFind pacientFind = new PacientFind(pacient);
 
                 if ((bool)pacientFind.ShowDialog()) // adding new pacient
                 {
@@ -718,6 +718,23 @@ namespace StomKarta
 
                 sqlCommandExecuteNonQuery(sqlCommand);
             }
+        }
+        private void buttonAppointment_Click(object sender, RoutedEventArgs e)
+        {
+            string currentBase = statusBarItemBase.Text;
+            statusBarItemBase.Text = Properties.Resources.baseTherapy;
+
+            PacientInfo pacient = new PacientInfo(idUser);
+            pacient.Id = (short)tablePacients.Rows[dataGridPacients.SelectedIndex][0];
+
+            FirstExam firstExam = new FirstExam(pacient);
+
+            if ((bool)firstExam.ShowDialog())
+            {
+                ;// if Save
+            }
+
+            statusBarItemBase.Text = currentBase;
         }
     }
 }

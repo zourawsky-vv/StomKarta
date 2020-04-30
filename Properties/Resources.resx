@@ -177,8 +177,266 @@
   <data name="baseUser" xml:space="preserve">
     <value>User</value>
   </data>
+  <data name="firstExamButtonDentalRec" xml:space="preserve">
+    <value>Dental Record</value>
+  </data>
+  <data name="firstExamCombo010" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo011" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo020" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo021" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo030" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo031" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo040" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo041" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo050" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo051" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo060" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo061" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo070" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo071" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo080" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo081" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo090" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo091" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo100" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo101" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo110" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo111" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo120" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="firstExamCombo121" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="firstExamCombo122" xml:space="preserve">
+    <value>both</value>
+  </data>
+  <data name="firstExamCombo130" xml:space="preserve">
+    <value>130</value>
+  </data>
+  <data name="firstExamCombo131" xml:space="preserve">
+    <value>131</value>
+  </data>
+  <data name="firstExamCombo132" xml:space="preserve">
+    <value>132</value>
+  </data>
+  <data name="firstExamCombo133" xml:space="preserve">
+    <value>133</value>
+  </data>
+  <data name="firstExamCombo134" xml:space="preserve">
+    <value>134</value>
+  </data>
+  <data name="firstExamCombo135" xml:space="preserve">
+    <value>135</value>
+  </data>
+  <data name="firstExamCombo136" xml:space="preserve">
+    <value>136</value>
+  </data>
+  <data name="firstExamCombo137" xml:space="preserve">
+    <value>137</value>
+  </data>
+  <data name="firstExamCombo138" xml:space="preserve">
+    <value>138</value>
+  </data>
+  <data name="firstExamCombo140" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="firstExamCombo141" xml:space="preserve">
+    <value>not Ok</value>
+  </data>
+  <data name="firstExamCombo150" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="firstExamCombo151" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="firstExamCombo152" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="firstExamCombo160" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="firstExamCombo161" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="firstExamCombo170" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="firstExamCombo171" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="firstExamCombo180" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="firstExamCombo181" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="firstExamCombo200" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="firstExamCombo201" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="firstExamCombo220" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="firstExamCombo221" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="firstExamText01" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="firstExamText02" xml:space="preserve">
+    <value>Text2</value>
+  </data>
+  <data name="firstExamText03" xml:space="preserve">
+    <value>Text3</value>
+  </data>
+  <data name="firstExamText04" xml:space="preserve">
+    <value>Text4</value>
+  </data>
+  <data name="firstExamText05" xml:space="preserve">
+    <value>Text5</value>
+  </data>
+  <data name="firstExamText06" xml:space="preserve">
+    <value>Text6</value>
+  </data>
+  <data name="firstExamText07" xml:space="preserve">
+    <value>Text7</value>
+  </data>
+  <data name="firstExamText08" xml:space="preserve">
+    <value>Text8</value>
+  </data>
+  <data name="firstExamText09" xml:space="preserve">
+    <value>Text9</value>
+  </data>
+  <data name="firstExamText10" xml:space="preserve">
+    <value>Text10</value>
+  </data>
+  <data name="firstExamText11" xml:space="preserve">
+    <value>Text11</value>
+  </data>
+  <data name="firstExamText12" xml:space="preserve">
+    <value>Text12</value>
+  </data>
+  <data name="firstExamText13" xml:space="preserve">
+    <value>Text13</value>
+  </data>
+  <data name="firstExamText14" xml:space="preserve">
+    <value>Text14</value>
+  </data>
+  <data name="firstExamText15" xml:space="preserve">
+    <value>Text15</value>
+  </data>
+  <data name="firstExamText16" xml:space="preserve">
+    <value>Text16</value>
+  </data>
+  <data name="firstExamText17" xml:space="preserve">
+    <value>Text17</value>
+  </data>
+  <data name="firstExamText18" xml:space="preserve">
+    <value>Text18</value>
+  </data>
+  <data name="firstExamText19" xml:space="preserve">
+    <value>Text19</value>
+  </data>
+  <data name="firstExamText20" xml:space="preserve">
+    <value>Text20</value>
+  </data>
+  <data name="firstExamText21" xml:space="preserve">
+    <value>Text20</value>
+  </data>
+  <data name="firstExamText22" xml:space="preserve">
+    <value>Text21</value>
+  </data>
+  <data name="firstExamText23" xml:space="preserve">
+    <value>Text23</value>
+  </data>
+  <data name="firstExamText24" xml:space="preserve">
+    <value>Text24</value>
+  </data>
+  <data name="firstExamText25" xml:space="preserve">
+    <value>Text25</value>
+  </data>
+  <data name="firstExamText26" xml:space="preserve">
+    <value>Text26</value>
+  </data>
+  <data name="firstExamText27" xml:space="preserve">
+    <value>Text27</value>
+  </data>
+  <data name="firstExamText28" xml:space="preserve">
+    <value>2.</value>
+  </data>
+  <data name="firstExamText29" xml:space="preserve">
+    <value>3.</value>
+  </data>
+  <data name="firstExamText30" xml:space="preserve">
+    <value>4.</value>
+  </data>
+  <data name="firstExamText31" xml:space="preserve">
+    <value>5.</value>
+  </data>
+  <data name="firstExamText32" xml:space="preserve">
+    <value>6.</value>
+  </data>
+  <data name="firstExamText33" xml:space="preserve">
+    <value>7.</value>
+  </data>
+  <data name="firstExamText34" xml:space="preserve">
+    <value>8.</value>
+  </data>
+  <data name="firstExamText35" xml:space="preserve">
+    <value>Text35</value>
+  </data>
   <data name="formAboutTitle" xml:space="preserve">
     <value>About program StomBase</value>
+  </data>
+  <data name="formFirstExamTitle" xml:space="preserve">
+    <value>First examination</value>
   </data>
   <data name="formLogonTitle" xml:space="preserve">
     <value>Authorization</value>
@@ -213,6 +471,9 @@
   </data>
   <data name="logonMessageWrongPassword" xml:space="preserve">
     <value>Password incorrect. Please try again.</value>
+  </data>
+  <data name="mainButtonAppointment" xml:space="preserve">
+    <value>Appointment</value>
   </data>
   <data name="mainButtonContentAdd" xml:space="preserve">
     <value>Add pacient</value>

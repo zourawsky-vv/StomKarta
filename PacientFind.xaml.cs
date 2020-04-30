@@ -7,24 +7,20 @@ using System.Windows;
 namespace StomKarta
 {
     /// <summary>
-    /// Логика взаимодействия для WindowPacientFind.xaml
+    /// Логика взаимодействия для PacientFind.xaml
     /// </summary>
-    public partial class WindowPacientFind : Window
+    public partial class PacientFind : Window
     {
         DataTable table = null;
         PacientInfo pacientInfo;
-        public WindowPacientFind(PacientInfo pacient)
+        public PacientFind(PacientInfo pacient)
         {
             InitializeComponent();
 
             pacientInfo = pacient;
-
             readDB();
-
             dataGridPacFind.DataContext = table;
-
             ifEmptyTable();
-
             buildYouEnter(pacient);
         }
         private void buildYouEnter(PacientInfo pacient)

@@ -241,11 +241,785 @@ namespace StomKarta.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Dental Record.
+        /// </summary>
+        public static string firstExamButtonDentalRec {
+            get {
+                return ResourceManager.GetString("firstExamButtonDentalRec", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo010 {
+            get {
+                return ResourceManager.GetString("firstExamCombo010", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo011 {
+            get {
+                return ResourceManager.GetString("firstExamCombo011", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo020 {
+            get {
+                return ResourceManager.GetString("firstExamCombo020", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo021 {
+            get {
+                return ResourceManager.GetString("firstExamCombo021", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo030 {
+            get {
+                return ResourceManager.GetString("firstExamCombo030", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo031 {
+            get {
+                return ResourceManager.GetString("firstExamCombo031", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo040 {
+            get {
+                return ResourceManager.GetString("firstExamCombo040", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo041 {
+            get {
+                return ResourceManager.GetString("firstExamCombo041", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo050 {
+            get {
+                return ResourceManager.GetString("firstExamCombo050", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo051 {
+            get {
+                return ResourceManager.GetString("firstExamCombo051", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo060 {
+            get {
+                return ResourceManager.GetString("firstExamCombo060", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo061 {
+            get {
+                return ResourceManager.GetString("firstExamCombo061", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo070 {
+            get {
+                return ResourceManager.GetString("firstExamCombo070", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo071 {
+            get {
+                return ResourceManager.GetString("firstExamCombo071", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo080 {
+            get {
+                return ResourceManager.GetString("firstExamCombo080", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo081 {
+            get {
+                return ResourceManager.GetString("firstExamCombo081", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo090 {
+            get {
+                return ResourceManager.GetString("firstExamCombo090", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo091 {
+            get {
+                return ResourceManager.GetString("firstExamCombo091", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo100 {
+            get {
+                return ResourceManager.GetString("firstExamCombo100", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo101 {
+            get {
+                return ResourceManager.GetString("firstExamCombo101", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo110 {
+            get {
+                return ResourceManager.GetString("firstExamCombo110", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo111 {
+            get {
+                return ResourceManager.GetString("firstExamCombo111", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на left.
+        /// </summary>
+        public static string firstExamCombo120 {
+            get {
+                return ResourceManager.GetString("firstExamCombo120", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на right.
+        /// </summary>
+        public static string firstExamCombo121 {
+            get {
+                return ResourceManager.GetString("firstExamCombo121", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на both.
+        /// </summary>
+        public static string firstExamCombo122 {
+            get {
+                return ResourceManager.GetString("firstExamCombo122", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 130.
+        /// </summary>
+        public static string firstExamCombo130 {
+            get {
+                return ResourceManager.GetString("firstExamCombo130", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 131.
+        /// </summary>
+        public static string firstExamCombo131 {
+            get {
+                return ResourceManager.GetString("firstExamCombo131", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 132.
+        /// </summary>
+        public static string firstExamCombo132 {
+            get {
+                return ResourceManager.GetString("firstExamCombo132", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 133.
+        /// </summary>
+        public static string firstExamCombo133 {
+            get {
+                return ResourceManager.GetString("firstExamCombo133", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 134.
+        /// </summary>
+        public static string firstExamCombo134 {
+            get {
+                return ResourceManager.GetString("firstExamCombo134", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 135.
+        /// </summary>
+        public static string firstExamCombo135 {
+            get {
+                return ResourceManager.GetString("firstExamCombo135", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 136.
+        /// </summary>
+        public static string firstExamCombo136 {
+            get {
+                return ResourceManager.GetString("firstExamCombo136", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 137.
+        /// </summary>
+        public static string firstExamCombo137 {
+            get {
+                return ResourceManager.GetString("firstExamCombo137", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 138.
+        /// </summary>
+        public static string firstExamCombo138 {
+            get {
+                return ResourceManager.GetString("firstExamCombo138", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ok.
+        /// </summary>
+        public static string firstExamCombo140 {
+            get {
+                return ResourceManager.GetString("firstExamCombo140", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на not Ok.
+        /// </summary>
+        public static string firstExamCombo141 {
+            get {
+                return ResourceManager.GetString("firstExamCombo141", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 0.
+        /// </summary>
+        public static string firstExamCombo150 {
+            get {
+                return ResourceManager.GetString("firstExamCombo150", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 1.
+        /// </summary>
+        public static string firstExamCombo151 {
+            get {
+                return ResourceManager.GetString("firstExamCombo151", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 2.
+        /// </summary>
+        public static string firstExamCombo152 {
+            get {
+                return ResourceManager.GetString("firstExamCombo152", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 0.
+        /// </summary>
+        public static string firstExamCombo160 {
+            get {
+                return ResourceManager.GetString("firstExamCombo160", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 1.
+        /// </summary>
+        public static string firstExamCombo161 {
+            get {
+                return ResourceManager.GetString("firstExamCombo161", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 0.
+        /// </summary>
+        public static string firstExamCombo170 {
+            get {
+                return ResourceManager.GetString("firstExamCombo170", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 1.
+        /// </summary>
+        public static string firstExamCombo171 {
+            get {
+                return ResourceManager.GetString("firstExamCombo171", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 0.
+        /// </summary>
+        public static string firstExamCombo180 {
+            get {
+                return ResourceManager.GetString("firstExamCombo180", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 1.
+        /// </summary>
+        public static string firstExamCombo181 {
+            get {
+                return ResourceManager.GetString("firstExamCombo181", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на No.
+        /// </summary>
+        public static string firstExamCombo200 {
+            get {
+                return ResourceManager.GetString("firstExamCombo200", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Yes.
+        /// </summary>
+        public static string firstExamCombo201 {
+            get {
+                return ResourceManager.GetString("firstExamCombo201", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на text.
+        /// </summary>
+        public static string firstExamCombo220 {
+            get {
+                return ResourceManager.GetString("firstExamCombo220", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на text.
+        /// </summary>
+        public static string firstExamCombo221 {
+            get {
+                return ResourceManager.GetString("firstExamCombo221", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text1.
+        /// </summary>
+        public static string firstExamText01 {
+            get {
+                return ResourceManager.GetString("firstExamText01", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text2.
+        /// </summary>
+        public static string firstExamText02 {
+            get {
+                return ResourceManager.GetString("firstExamText02", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text3.
+        /// </summary>
+        public static string firstExamText03 {
+            get {
+                return ResourceManager.GetString("firstExamText03", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text4.
+        /// </summary>
+        public static string firstExamText04 {
+            get {
+                return ResourceManager.GetString("firstExamText04", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text5.
+        /// </summary>
+        public static string firstExamText05 {
+            get {
+                return ResourceManager.GetString("firstExamText05", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text6.
+        /// </summary>
+        public static string firstExamText06 {
+            get {
+                return ResourceManager.GetString("firstExamText06", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text7.
+        /// </summary>
+        public static string firstExamText07 {
+            get {
+                return ResourceManager.GetString("firstExamText07", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text8.
+        /// </summary>
+        public static string firstExamText08 {
+            get {
+                return ResourceManager.GetString("firstExamText08", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text9.
+        /// </summary>
+        public static string firstExamText09 {
+            get {
+                return ResourceManager.GetString("firstExamText09", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text10.
+        /// </summary>
+        public static string firstExamText10 {
+            get {
+                return ResourceManager.GetString("firstExamText10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text11.
+        /// </summary>
+        public static string firstExamText11 {
+            get {
+                return ResourceManager.GetString("firstExamText11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text12.
+        /// </summary>
+        public static string firstExamText12 {
+            get {
+                return ResourceManager.GetString("firstExamText12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text13.
+        /// </summary>
+        public static string firstExamText13 {
+            get {
+                return ResourceManager.GetString("firstExamText13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text14.
+        /// </summary>
+        public static string firstExamText14 {
+            get {
+                return ResourceManager.GetString("firstExamText14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text15.
+        /// </summary>
+        public static string firstExamText15 {
+            get {
+                return ResourceManager.GetString("firstExamText15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text16.
+        /// </summary>
+        public static string firstExamText16 {
+            get {
+                return ResourceManager.GetString("firstExamText16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text17.
+        /// </summary>
+        public static string firstExamText17 {
+            get {
+                return ResourceManager.GetString("firstExamText17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text18.
+        /// </summary>
+        public static string firstExamText18 {
+            get {
+                return ResourceManager.GetString("firstExamText18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text19.
+        /// </summary>
+        public static string firstExamText19 {
+            get {
+                return ResourceManager.GetString("firstExamText19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text20.
+        /// </summary>
+        public static string firstExamText20 {
+            get {
+                return ResourceManager.GetString("firstExamText20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text20.
+        /// </summary>
+        public static string firstExamText21 {
+            get {
+                return ResourceManager.GetString("firstExamText21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text21.
+        /// </summary>
+        public static string firstExamText22 {
+            get {
+                return ResourceManager.GetString("firstExamText22", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text23.
+        /// </summary>
+        public static string firstExamText23 {
+            get {
+                return ResourceManager.GetString("firstExamText23", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text24.
+        /// </summary>
+        public static string firstExamText24 {
+            get {
+                return ResourceManager.GetString("firstExamText24", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text25.
+        /// </summary>
+        public static string firstExamText25 {
+            get {
+                return ResourceManager.GetString("firstExamText25", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text26.
+        /// </summary>
+        public static string firstExamText26 {
+            get {
+                return ResourceManager.GetString("firstExamText26", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text27.
+        /// </summary>
+        public static string firstExamText27 {
+            get {
+                return ResourceManager.GetString("firstExamText27", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 2..
+        /// </summary>
+        public static string firstExamText28 {
+            get {
+                return ResourceManager.GetString("firstExamText28", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 3..
+        /// </summary>
+        public static string firstExamText29 {
+            get {
+                return ResourceManager.GetString("firstExamText29", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 4..
+        /// </summary>
+        public static string firstExamText30 {
+            get {
+                return ResourceManager.GetString("firstExamText30", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 5..
+        /// </summary>
+        public static string firstExamText31 {
+            get {
+                return ResourceManager.GetString("firstExamText31", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 6..
+        /// </summary>
+        public static string firstExamText32 {
+            get {
+                return ResourceManager.GetString("firstExamText32", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 7..
+        /// </summary>
+        public static string firstExamText33 {
+            get {
+                return ResourceManager.GetString("firstExamText33", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 8..
+        /// </summary>
+        public static string firstExamText34 {
+            get {
+                return ResourceManager.GetString("firstExamText34", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text35.
+        /// </summary>
+        public static string firstExamText35 {
+            get {
+                return ResourceManager.GetString("firstExamText35", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на About program StomBase.
         /// </summary>
         public static string formAboutTitle {
             get {
                 return ResourceManager.GetString("formAboutTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на First examination.
+        /// </summary>
+        public static string formFirstExamTitle {
+            get {
+                return ResourceManager.GetString("formFirstExamTitle", resourceCulture);
             }
         }
         
@@ -345,6 +1119,15 @@ namespace StomKarta.Properties {
         public static string logonMessageWrongPassword {
             get {
                 return ResourceManager.GetString("logonMessageWrongPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Appointment.
+        /// </summary>
+        public static string mainButtonAppointment {
+            get {
+                return ResourceManager.GetString("mainButtonAppointment", resourceCulture);
             }
         }
         

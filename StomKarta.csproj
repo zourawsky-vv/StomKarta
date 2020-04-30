@@ -55,11 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FirstExam.xaml.cs">
+      <DependentUpon>FirstExam.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Logon.xaml.cs">
       <DependentUpon>Logon.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pacient.xaml.cs">
       <DependentUpon>Pacient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PacientFind.xaml.cs">
+      <DependentUpon>PacientFind.xaml</DependentUpon>
     </Compile>
     <Compile Include="PacientInfo.cs" />
     <Compile Include="StomBaseDataSet.Designer.cs">
@@ -67,10 +73,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StomBaseDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="WindowPacientFind.xaml.cs">
-      <DependentUpon>WindowPacientFind.xaml</DependentUpon>
-    </Compile>
     <Page Include="About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FirstExam.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -97,7 +104,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WindowPacientFind.xaml">
+    <Page Include="PacientFind.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
