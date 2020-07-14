@@ -44,12 +44,6 @@ namespace StomKarta
         {
             InitializeComponent();
 
-            /*Title = Properties.Resources.formMainTitle; // {x:Static res:Resources.formMainTitle}*/
-            /*buttonAdd.Content = Properties.Resources.mainButtonContentAdd;*/
-            /*labelAdress.Content = Properties.Resources.mainLabelAdress;*/
-            /*labelComment.Content = Properties.Resources.mainLabelComment;*/
-            /*labelTelefons.Content = Properties.Resources.mainLabelTelefons;*/
-
             Activated += MainWindow_Activated;
 
             menuItemReestrPacient.IsEnabled = false;

@@ -13,8 +13,6 @@ namespace StomKarta
         {
             InitializeComponent();
 
-            /*Title = Properties.Resources.formAboutTitle; // {x:Static res:Resources.formAboutTitle}*/
-
             Version strVersion = Assembly.GetExecutingAssembly().GetName().Version;
 
             version.Text = Properties.Resources.aboutVersion + " " + strVersion;

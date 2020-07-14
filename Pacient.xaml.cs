@@ -17,26 +17,6 @@ namespace StomKarta
         {
             InitializeComponent();
 
-            /*Title = Properties.Resources.formPacientAddTitle;*/
-            /*buttonAPAdd.Content = Properties.Resources.pacientButtonSave;*/
-            /*buttonAPExit.Content = Properties.Resources.pacientButtonExit;*/
-            /*labelFam.Content = Properties.Resources.pacientLabelFam;*/
-            /*labelIm.Content = Properties.Resources.pacientLabelIm;*/
-            /*labelOt.Content = Properties.Resources.pacientLabelOtc;*/
-            /*labelSex.Content = Properties.Resources.pacientLabelSex;*/
-            /*labelDR.Content = Properties.Resources.pacientLabelDR;*/
-            /*labelEMail.Content = Properties.Resources.pacientLabelEMail;*/
-            /*labelAddress.Content = Properties.Resources.pacientLabelAddress;*/
-            /*labelComment.Content = Properties.Resources.pacientLabelComment;*/
-            /*labelTelefons.Content = Properties.Resources.pacientLabelTelefons;*/
-            /*labelNumber.Content = Properties.Resources.pacientLabelNumber;*/
-            /*buttonTelAdd.Content = Properties.Resources.pacientButtonAddTel;*/
-            /*buttonTelDel.Content = Properties.Resources.pacientButtonDelTel;*/
-            /*labelPrivateUserInfo.Content = Properties.Resources.pacientLabelPrivateUserInfo;*/
-            /*labelNickName.Content = Properties.Resources.pacientLabelNickName;*/
-            /*labelFromComment.Content = Properties.Resources.pacientLabelFromComment;*/
-            /*labelTelFormat.Text = Properties.Resources.pacientLabelTelFormat;*/
-
             labelNickName.Content = MainWindow.labelNickNameText;
 
             pacientInfo = pacient;

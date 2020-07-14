@@ -25,12 +25,6 @@ namespace StomKarta
         {
             InitializeComponent();
 
-            /*Title = Properties.Resources.formLogonTitle; //{x:Static res:Resources.formLogonTitle}*/
-
-            /*user.Content = Properties.Resources.logonLabelUser;*/
-            /*pass.Content = Properties.Resources.logonLabelPass;*/
-            /*confirmPass.Content = Properties.Resources.logonLabelConfirm;*/
-
             confirmPass.IsEnabled = false;
             textBoxConfirmPass.IsEnabled = false;
             
